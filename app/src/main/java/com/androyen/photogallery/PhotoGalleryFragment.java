@@ -12,6 +12,8 @@ import android.widget.GridView;
  */
 public class PhotoGalleryFragment extends Fragment {
 
+    private static final String TAG = PhotoGalleryFragment.class.getSimpleName();
+
     GridView mGridView;
 
     @Override
@@ -29,4 +31,6 @@ public class PhotoGalleryFragment extends Fragment {
 
         return v;
     }
+
+    
 }
